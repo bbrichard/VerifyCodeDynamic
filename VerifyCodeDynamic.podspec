@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
   spec.ios.deployment_target = "9.0"
 
-  spec.source = { :http  => '' }
+  spec.source = { :http  => 'https://raw.githubusercontent.com/bbrichard/VerifyCodeDynamic/master/Products/VerifyCodeDynamic.framework001.zip' }
 
   spec.default_subspec = 'zip'
   spec.subspec 'zip' do |zip|
