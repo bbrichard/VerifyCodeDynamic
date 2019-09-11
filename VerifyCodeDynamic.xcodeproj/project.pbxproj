@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		796AC08323288900005E0247 /* VerifyCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796AC08123288900005E0247 /* VerifyCode.framework */; };
-		796AC08423288900005E0247 /* NTESVerifyCodeResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 796AC08223288900005E0247 /* NTESVerifyCodeResources.bundle */; };
+		795B758123289A5600EEBA5F /* NTESVerifyCodeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 795B758023289A5600EEBA5F /* NTESVerifyCodeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		796AC09623288A37005E0247 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796AC08C2328897D005E0247 /* CoreImage.framework */; };
 		796AC09723288A70005E0247 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796AC09023288987005E0247 /* CoreGraphics.framework */; };
 		796AC09823288B33005E0247 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796AC0922328898D005E0247 /* QuartzCore.framework */; };
@@ -20,15 +19,15 @@
 		796AC0C223288D1F005E0247 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796AC0942328899D005E0247 /* UIKit.framework */; };
 		796AC0C323288D2E005E0247 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796AC08A2328895A005E0247 /* WebKit.framework */; };
 		796AC0C523288D9A005E0247 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796AC0C423288D9A005E0247 /* Security.framework */; };
-		796AC0C823289079005E0247 /* NTESVerifyCodeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 796AC0C723289079005E0247 /* NTESVerifyCodeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B33B11885827015F26B13D72 /* Pods_VerifyCodeDynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375007B268940D199CBAF5F3 /* Pods_VerifyCodeDynamic.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		375007B268940D199CBAF5F3 /* Pods_VerifyCodeDynamic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VerifyCodeDynamic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		795B758023289A5600EEBA5F /* NTESVerifyCodeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NTESVerifyCodeManager.h; path = Pods/VerifyCode/Release/VerifyCode_iOS_3.1.4/VerifyCode.framework/Headers/NTESVerifyCodeManager.h; sourceTree = "<group>"; };
 		796AC076232888EB005E0247 /* VerifyCodeDynamic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VerifyCodeDynamic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		796AC079232888EB005E0247 /* VerifyCodeDynamic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerifyCodeDynamic.h; sourceTree = "<group>"; };
 		796AC07A232888EB005E0247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		796AC08123288900005E0247 /* VerifyCode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VerifyCode.framework; sourceTree = "<group>"; };
-		796AC08223288900005E0247 /* NTESVerifyCodeResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NTESVerifyCodeResources.bundle; sourceTree = "<group>"; };
 		796AC08623288949005E0247 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		796AC08823288952005E0247 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		796AC08A2328895A005E0247 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
@@ -40,7 +39,8 @@
 		796AC0BD23288CB2005E0247 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		796AC0BF23288CDF005E0247 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		796AC0C423288D9A005E0247 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		796AC0C723289079005E0247 /* NTESVerifyCodeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NTESVerifyCodeManager.h; path = VerifyCodeDynamic/VerifyCode.framework/Headers/NTESVerifyCodeManager.h; sourceTree = "<group>"; };
+		93E51822C107CB6C85ABCF83 /* Pods-VerifyCodeDynamic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VerifyCodeDynamic.release.xcconfig"; path = "Target Support Files/Pods-VerifyCodeDynamic/Pods-VerifyCodeDynamic.release.xcconfig"; sourceTree = "<group>"; };
+		B8C8B22001782D344A39DED1 /* Pods-VerifyCodeDynamic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VerifyCodeDynamic.debug.xcconfig"; path = "Target Support Files/Pods-VerifyCodeDynamic/Pods-VerifyCodeDynamic.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 				796AC09823288B33005E0247 /* QuartzCore.framework in Frameworks */,
 				796AC09723288A70005E0247 /* CoreGraphics.framework in Frameworks */,
 				796AC09623288A37005E0247 /* CoreImage.framework in Frameworks */,
-				796AC08323288900005E0247 /* VerifyCode.framework in Frameworks */,
+				B33B11885827015F26B13D72 /* Pods_VerifyCodeDynamic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,10 +69,11 @@
 		796AC06C232888EB005E0247 = {
 			isa = PBXGroup;
 			children = (
-				796AC0C723289079005E0247 /* NTESVerifyCodeManager.h */,
+				795B758023289A5600EEBA5F /* NTESVerifyCodeManager.h */,
 				796AC078232888EB005E0247 /* VerifyCodeDynamic */,
 				796AC077232888EB005E0247 /* Products */,
 				796AC08523288948005E0247 /* Frameworks */,
+				F9307F47F3395CDB283CD2D6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				796AC079232888EB005E0247 /* VerifyCodeDynamic.h */,
-				796AC08223288900005E0247 /* NTESVerifyCodeResources.bundle */,
-				796AC08123288900005E0247 /* VerifyCode.framework */,
 				796AC07A232888EB005E0247 /* Info.plist */,
 			);
 			path = VerifyCodeDynamic;
@@ -109,8 +108,18 @@
 				796AC08A2328895A005E0247 /* WebKit.framework */,
 				796AC08823288952005E0247 /* JavaScriptCore.framework */,
 				796AC08623288949005E0247 /* SystemConfiguration.framework */,
+				375007B268940D199CBAF5F3 /* Pods_VerifyCodeDynamic.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9307F47F3395CDB283CD2D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8C8B22001782D344A39DED1 /* Pods-VerifyCodeDynamic.debug.xcconfig */,
+				93E51822C107CB6C85ABCF83 /* Pods-VerifyCodeDynamic.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +129,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				796AC0C823289079005E0247 /* NTESVerifyCodeManager.h in Headers */,
+				795B758123289A5600EEBA5F /* NTESVerifyCodeManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,11 +140,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 796AC07E232888EB005E0247 /* Build configuration list for PBXNativeTarget "VerifyCodeDynamic" */;
 			buildPhases = (
+				483B3C63B80C0CF1DCD6737E /* [CP] Check Pods Manifest.lock */,
 				796AC071232888EB005E0247 /* Headers */,
 				796AC072232888EB005E0247 /* Sources */,
 				796AC073232888EB005E0247 /* Frameworks */,
 				796AC074232888EB005E0247 /* Resources */,
 				796AC0C623288FA0005E0247 /* ShellScript */,
+				2D0CFE57F1999C6381712639 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,13 +193,51 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				796AC08423288900005E0247 /* NTESVerifyCodeResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2D0CFE57F1999C6381712639 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VerifyCodeDynamic/Pods-VerifyCodeDynamic-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VerifyCodeDynamic/Pods-VerifyCodeDynamic-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VerifyCodeDynamic/Pods-VerifyCodeDynamic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		483B3C63B80C0CF1DCD6737E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VerifyCodeDynamic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		796AC0C623288FA0005E0247 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -339,6 +388,7 @@
 		};
 		796AC07F232888EB005E0247 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8C8B22001782D344A39DED1 /* Pods-VerifyCodeDynamic.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = (
 					armv7s,
@@ -368,6 +418,7 @@
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
+					"$(inherited)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.seektop.VerifyCodeDynamic;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -379,6 +430,7 @@
 		};
 		796AC080232888EB005E0247 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93E51822C107CB6C85ABCF83 /* Pods-VerifyCodeDynamic.release.xcconfig */;
 			buildSettings = {
 				ARCHS = (
 					armv7s,
@@ -408,6 +460,7 @@
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
+					"$(inherited)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.seektop.VerifyCodeDynamic;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";

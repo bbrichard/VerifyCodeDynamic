@@ -1,0 +1,16 @@
+PODS:
+  - VerifyCode (3.1.4)
+
+DEPENDENCIES:
+  - VerifyCode
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - VerifyCode
+
+SPEC CHECKSUMS:
+  VerifyCode: e3a58ef5cfada013329981765015522ed3d5d51c
+
+PODFILE CHECKSUM: 6e93a5842eb5fcc04b8660592e7f54460efac870
+
+COCOAPODS: 1.7.5
